@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.FiltersType {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 50px 0;
+}
+
+.date-picker-container {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.date-picker {
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: solid 1px grey;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  cursor: pointer;
+  text-align: center;
+}
+
+.InputField {
+  width: 600px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: solid 1px grey;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+}
+
+.List {
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+
+.DetailsPage,
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 360px;
+  max-height: 120px;
+  width: calc(33.33% - 20px);
+  border-radius: 2px;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 16px;
+  background-color: white;
+}
+
+.ListItem:hover {
+  box-shadow: 0 1px 7px 0 grey;
+}
+
+.key,
+.series-title,
+.title {
+  height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: grey;
+}
+
+.body {
+  font-size: 20px;
+  line-height: 1.57;
+}
+
+.styled-link {
+  display: flex;
+  align-items: center;
+  color: #cfb995;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.styled-link-icon {
+  margin-left: 8px;
+  display: inline-block;
+  background-image: url('img/path.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 12px;
+}
+
+.DetailsPage {
+  max-height: 600px;
+  margin: 50px;
+  width: calc(100% - 100px);
+}
+
+.key-value {
+  display: flex;
+}
+
+.key {
+  width: 200px;
+}
+
+.value {
+  width: 400px;
+}
+
+.series-title {
+  margin: 4px 0 20px -20px;
+  font-size: 22px;
+}
+
+.series {
+  margin-left: 20px;
+}

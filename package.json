@@ -1,0 +1,57 @@
+{
+  "name": "react-challenge-hamed-saidi",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.15",
+    "@types/keymirror": "^0.1.1",
+    "@types/lodash": "^4.14.136",
+    "@types/node": "^12.7.8",
+    "@types/react": "16.8.23",
+    "@types/react-datepicker": "^2.9.2",
+    "@types/react-dom": "16.8.5",
+    "@types/react-redux": "^7.1.4",
+    "@types/react-router": "^5.1.1",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/reselect": "^2.2.0",
+    "history": "^4.7.2",
+    "keymirror": "^0.1.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "react": "^16.3.2",
+    "react-datepicker": "^2.9.6",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^2.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^4.0.0",
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
